@@ -1,9 +1,9 @@
-package politetransaction.store.account;
+package politetransaction.store.auth;
 
 import lombok.Builder;
 import lombok.experimental.Accessors;
 
 @Builder
 @Accessors(fluent = true, chain = true)
-public record LoginIn(
+public record LoginOut(
     String token) { }

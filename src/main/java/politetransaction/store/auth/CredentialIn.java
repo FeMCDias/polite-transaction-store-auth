@@ -1,4 +1,4 @@
-package politetransaction.store.account;
+package politetransaction.store.auth;
 
 import lombok.Builder;
 import lombok.experimental.Accessors;
